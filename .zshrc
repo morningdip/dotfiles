@@ -163,7 +163,7 @@ alias flushdns="dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
 alias dsstore="find . -name '*.DS_Store' -type f -ls -delete"
 
 # Manage dot files
-alias dots="git --git-dir=$HOME/.dots/ --work-tree=$HOME"
+alias dots="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
 # Set git language from Chinese to English
 export LC_ALL=en_US.UTF-8
