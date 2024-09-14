@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-git clone --bare git@github.com:morningdip/dotfiles.git $HOME/.dotfiles
+git clone --bare https://github.com/morningdip/dotfiles.git $HOME/.dotfiles
 
 # Define config alias locally since the dotfiles aren't installed on the system yet
 function dots {
